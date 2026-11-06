@@ -1,0 +1,83 @@
+Browser,Vendor,Engine,Category,Platforms,WindowsProcess,MacProcess,TVMKeyword,Confidence,Notes
+Google Chrome,Google,Blink,Mainstream,Windows;macOS;Linux,chrome.exe,Google Chrome,chrome,High,Beta/Dev/Canary channels use same exe; Canary mac process is Google Chrome Canary
+Microsoft Edge,Microsoft,Blink,Mainstream,Windows;macOS;Linux,msedge.exe,Microsoft Edge,edge,High,Beta/Dev/Canary use msedge.exe
+Mozilla Firefox,Mozilla,Gecko,Mainstream,Windows;macOS;Linux,firefox.exe,firefox,firefox,High,ESR/Developer Edition/Nightly use same exe
+Apple Safari,Apple,WebKit,Mainstream,macOS,,Safari,safari,High,Built into macOS
+Safari Technology Preview,Apple,WebKit,Mainstream,macOS,,Safari Technology Preview,safari,High,Apple preview channel
+Opera,Opera,Blink,Mainstream,Windows;macOS;Linux,opera.exe,Opera,opera,High,
+Opera GX,Opera,Blink,Mainstream,Windows;macOS,opera.exe,Opera GX,opera,High,Gaming variant; same exe as Opera on Windows
+Opera Air,Opera,Blink,Mainstream,Windows;macOS,opera.exe,Opera Air,opera,Medium,Wellbeing-focused variant
+Internet Explorer,Microsoft,Trident,Legacy,Windows,iexplore.exe,,internet_explorer,High,Retired; still present as component on some builds
+Brave,Brave Software,Blink,Privacy,Windows;macOS;Linux,brave.exe,Brave Browser,brave,High,
+Vivaldi,Vivaldi Technologies,Blink,Power-user,Windows;macOS;Linux,vivaldi.exe,Vivaldi,vivaldi,High,
+Tor Browser,Tor Project,Gecko,Privacy/Anonymity,Windows;macOS;Linux,firefox.exe;tor.exe,firefox;tor,tor_browser,High,Ships firefox.exe - check FolderPath for 'Tor Browser'; tor.exe is the strongest signal
+Mullvad Browser,Mullvad / Tor Project,Gecko,Privacy,Windows;macOS;Linux,mullvadbrowser.exe,Mullvad Browser,mullvad,Medium,
+LibreWolf,LibreWolf Community,Gecko,Privacy (Firefox fork),Windows;macOS;Linux,librewolf.exe,librewolf,librewolf,High,
+Waterfox,Waterfox,Gecko,Firefox fork,Windows;macOS;Linux,waterfox.exe,waterfox,waterfox,High,
+Floorp,Ablaze,Gecko,Firefox fork,Windows;macOS;Linux,floorp.exe,floorp,floorp,High,
+Zen Browser,Zen Team,Gecko,Firefox fork,Windows;macOS;Linux,zen.exe,zen,zen,Medium,
+Pale Moon,Moonchild Productions,Goanna,Firefox fork,Windows;Linux,palemoon.exe,,pale_moon,High,
+Basilisk,Moonchild Productions,Goanna,Firefox fork,Windows;Linux,basilisk.exe,,basilisk,High,
+SeaMonkey,SeaMonkey Project,Gecko,Legacy suite,Windows;macOS;Linux,seamonkey.exe,seamonkey,seamonkey,High,
+K-Meleon,K-Meleon Project,Goanna,Legacy,Windows,k-meleon.exe,,k-meleon,Medium,
+Mercury Browser,Alex313031,Gecko,Firefox fork,Windows;Linux,mercury.exe,,mercury,Medium,
+Ungoogled Chromium,Community,Blink,Privacy (Chromium fork),Windows;macOS;Linux,chrome.exe,Chromium,chromium,High,Same exe as Chrome - distinguish by FolderPath / signer
+Chromium,The Chromium Projects,Blink,Open source,Windows;macOS;Linux,chrome.exe,Chromium,chromium,High,Unsigned builds - distinguish from Chrome by signer
+Thorium,Alex313031,Blink,Chromium fork,Windows;macOS;Linux,thorium.exe,Thorium,thorium,High,
+Cromite,Community,Blink,Privacy (Chromium fork),Windows;Linux,chrome.exe,,cromite,Medium,Same exe as Chrome - check FolderPath
+Supermium,Community,Blink,Chromium fork (legacy OS),Windows,chrome.exe,,supermium,Medium,Targets old Windows versions; check FolderPath
+Cent Browser,Cent Studio,Blink,Chromium fork,Windows,chrome.exe,,cent_browser,Medium,Same exe as Chrome - check FolderPath
+Iridium,Iridium Project,Blink,Privacy (Chromium fork),Windows;macOS;Linux,iridium.exe,Iridium,iridium,Medium,
+SRWare Iron,SRWare,Blink,Privacy (Chromium fork),Windows;macOS;Linux,iron.exe,Iron,iron,Medium,
+Epic Privacy Browser,Hidden Reflex,Blink,Privacy,Windows;macOS,epic.exe,Epic,epic,Medium,Indian-origin browser
+Slimjet,FlashPeak,Blink,Chromium fork,Windows;macOS;Linux,slimjet.exe,Slimjet,slimjet,Medium,
+Comodo Dragon,Comodo / Xcitium,Blink,Security-vendor,Windows,dragon.exe,,comodo_dragon,High,
+Comodo IceDragon,Comodo / Xcitium,Gecko,Security-vendor,Windows,icedragon.exe,,icedragon,High,
+Avast Secure Browser,Gen Digital,Blink,Security-vendor,Windows;macOS,AvastBrowser.exe,Avast Secure Browser,avast_secure_browser,High,Often bundled with Avast AV
+AVG Secure Browser,Gen Digital,Blink,Security-vendor,Windows;macOS,AVGBrowser.exe,AVG Secure Browser,avg_secure_browser,High,Often bundled with AVG AV
+Norton Private Browser,Gen Digital,Blink,Security-vendor,Windows;macOS,NortonBrowser.exe,Norton Private Browser,norton,Medium,Often bundled with Norton
+CCleaner Browser,Gen Digital,Blink,Bundled/PUA-risk,Windows,CCleanerBrowser.exe,,ccleaner_browser,High,Frequently bundled with CCleaner installer
+Opera Neon,Opera,Blink,AI/Agentic,Windows;macOS,opera.exe,Opera Neon,opera,Medium,Agentic browser; verify process name in your telemetry
+Perplexity Comet,Perplexity,Blink,AI/Agentic,Windows;macOS,comet.exe,Comet,comet,Medium,Agentic AI browser - data exposure risk
+ChatGPT Atlas,OpenAI,Blink,AI/Agentic,macOS,,ChatGPT Atlas,atlas,Medium,Agentic AI browser - data exposure risk
+Dia,The Browser Company (Atlassian),Blink,AI/Agentic,macOS,,Dia,dia,Medium,AI browser from Arc makers
+Arc,The Browser Company (Atlassian),Blink,Power-user,Windows;macOS,Arc.exe,Arc,arc,High,Windows version is MSIX packaged
+Genspark Browser,Genspark,Blink,AI/Agentic,Windows;macOS,genspark.exe,Genspark,genspark,Low,Verify process name
+Sigma AI Browser,Sigma,Blink,AI/Agentic,Windows;macOS,sigma.exe,Sigma,sigma,Low,Verify process name
+Fellou,Fellou,Blink,AI/Agentic,Windows;macOS,fellou.exe,Fellou,fellou,Low,Verify process name
+SigmaOS,SigmaOS,WebKit,Power-user,macOS,,SigmaOS,sigmaos,Medium,
+Orion,Kagi,WebKit,Privacy,macOS,,Orion,orion,High,
+DuckDuckGo Browser,DuckDuckGo,WebView2/WebKit,Privacy,Windows;macOS,DuckDuckGo.exe,DuckDuckGo,duckduckgo,Medium,Windows build is MSIX packaged
+Ecosia Browser,Ecosia,Blink,Chromium fork,Windows;macOS,ecosia.exe,Ecosia,ecosia,Low,Verify process name
+Ulaa,Zoho,Blink,Privacy/Enterprise,Windows;macOS;Linux,ulaa.exe,Ulaa,ulaa,Medium,Indian-origin (Zoho)
+Island Enterprise Browser,Island,Blink,Enterprise browser,Windows;macOS,Island.exe,Island,island,Medium,Managed enterprise browser - may be sanctioned
+Prisma Access Browser,Palo Alto Networks,Blink,Enterprise browser,Windows;macOS,PrismaAccessBrowser.exe,Prisma Access Browser,prisma_access_browser,Low,Formerly Talon; verify process name
+Wavebox,Bookry,Blink,Productivity,Windows;macOS;Linux,wavebox.exe,Wavebox,wavebox,Medium,
+Sidekick,Pushplay,Blink,Productivity,Windows;macOS,sidekick.exe,Sidekick,sidekick,Low,Development largely halted
+Shift,Redbrick,Blink,Productivity,Windows;macOS,shift.exe,Shift,shift,Medium,
+Ghost Browser,Ghost Browser,Blink,Multi-session,Windows;macOS,ghost.exe,Ghost Browser,ghost_browser,Low,Multi-identity browsing - verify process name
+Min,Min Project,Blink (Electron),Minimal,Windows;macOS;Linux,Min.exe,Min,min,Medium,
+Polypane,Firstversionist,Blink (Electron),Developer,Windows;macOS;Linux,Polypane.exe,Polypane,polypane,Medium,Web developer browser
+Falkon,KDE,Blink (QtWebEngine),Open source,Windows;Linux,falkon.exe,,falkon,Medium,
+Otter Browser,Otter Project,Blink (QtWebEngine),Open source,Windows;macOS;Linux,otter-browser.exe,Otter Browser,otter,Medium,
+Midori,Astian,Gecko,Lightweight,Windows;macOS;Linux,midori.exe,Midori,midori,Low,Engine changed over versions
+Maxthon,Maxthon,Blink,Regional (China),Windows;macOS,Maxthon.exe,Maxthon,maxthon,Medium,
+UC Browser,UCWeb (Alibaba),Blink,Regional (China/India),Windows,UCBrowser.exe,,ucbrowser,Medium,Banned in India (2020)
+360 Secure Browser,Qihoo 360,Blink/Trident,Regional (China),Windows,360se.exe,,360se,High,
+360 Extreme Explorer,Qihoo 360,Blink,Regional (China),Windows,360chrome.exe,,360chrome,High,
+QQ Browser,Tencent,Blink,Regional (China),Windows;macOS,QQBrowser.exe,QQBrowser,qqbrowser,High,
+Sogou Explorer,Sogou (Tencent),Blink/Trident,Regional (China),Windows,SogouExplorer.exe,,sogou,High,
+Liebao Browser,Cheetah Mobile,Blink,Regional (China),Windows,liebao.exe,,liebao,Medium,
+2345 Explorer,2345.com,Blink,Regional (China),Windows,2345Explorer.exe,,2345explorer,Medium,Often bundled/PUA
+Yandex Browser,Yandex,Blink,Regional (Russia),Windows;macOS;Linux,browser.exe,Yandex,yandex,High,Generic exe name - check FolderPath for Yandex
+Atom Browser,VK (Mail.ru),Blink,Regional (Russia),Windows;macOS,atom.exe,Atom,atom,Low,Do not confuse with Atom editor
+Coc Coc,Coc Coc,Blink,Regional (Vietnam),Windows;macOS,browser.exe,CocCoc,coccoc,High,Generic exe name - check FolderPath for CocCoc
+Naver Whale,Naver,Blink,Regional (Korea),Windows;macOS;Linux,whale.exe,Whale,whale,High,
+Sleipnir,Fenrir,Blink,Regional (Japan),Windows;macOS,Sleipnir.exe,Sleipnir,sleipnir,Medium,
+Lunascape,Lunascape,Multi-engine,Regional (Japan),Windows,Lunascape.exe,,lunascape,Low,
+Torch Browser,Torch Media,Blink,Bundled/PUA-risk,Windows,torch.exe,,torch,Medium,Often flagged as PUA
+7Star,7Star,Blink,Chromium fork,Windows,7chrome.exe,,7star,Low,
+Puffin Browser,CloudMosa,Blink (cloud),Remote/cloud browser,Windows;macOS,puffin.exe,Puffin,puffin,Low,Renders in cloud - traffic bypasses local inspection
+Ladybird,Ladybird Browser Initiative,LibWeb,Independent (pre-alpha),macOS;Linux,,Ladybird,ladybird,Medium,Pre-alpha; unlikely in enterprise
+Lynx,Lynx Project,Text,Text-based,Windows;macOS;Linux,lynx.exe,lynx,lynx,High,CLI browser
+w3m,w3m Project,Text,Text-based,macOS;Linux,,w3m,w3m,High,CLI browser
